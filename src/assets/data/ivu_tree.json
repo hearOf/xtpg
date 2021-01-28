@@ -1,0 +1,624 @@
+{
+    "title": "宽带网系统评估",
+    "children": [{
+            "title": "连通性",
+            "children": [{
+                    "title": "覆盖性",
+                    "children": [{
+                            "title": "地表覆盖性",
+                            "children": [{
+                                "title": "地表覆盖率",
+                                "dataSources": true
+                            }, {
+                                "title": "二重覆盖率",
+                                "dataSources": true
+                            }]
+                        },
+                        {
+                            "title": "低轨空间覆盖性",
+                            "children": [{
+                                "title": "低轨覆盖率",
+                                "dataSources": true
+                            }, {
+                                "title": "二重覆盖率",
+                                "dataSources": true
+                            }]
+                        },
+                        {
+                            "title": "重点区域覆盖性",
+                            "children": [{
+                                "title": "重点区域覆盖率",
+                                "dataSources": true
+                            }, {
+                                "title": "二重覆盖率",
+                                "dataSources": true
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "title": "拓扑结构",
+                    "children": [{
+                            "title": "度数",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "平均跳数",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "空间紧性",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "节点间连接特性",
+                    "children": [{
+                            "title": "星间激光互联链路",
+                            "children": [{
+                                    "title": "误码率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "传输速率",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "星地激光互联链路",
+                            "children": [{
+                                    "title": "误码率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "传输速率",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "星地Q/V馈电链路",
+                            "children": [{
+                                    "title": "误码率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "传输速率",
+                                    "dataSources": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "节点内处理特性",
+                    "children": [{
+                            "title": "光交换能力",
+                            "children": [{
+                                    "title": "端口数量",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "波长交换能力",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "分组交换能力",
+                            "children": [{
+                                    "title": "端口数量",
+                                    "dataSources": true
+                                }, {
+                                    "title": "端口速率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "波长交换能力",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "柔性交换能力",
+                            "children": [{
+                                    "title": "端口数量",
+                                    "dataSources": true
+                                }, {
+                                    "title": "单端口最大频带宽度",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "交换颗粒度",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "光电混合交换能力",
+                            "children": [{
+                                "title": "波长交换能力",
+                                "dataSources": true
+                            }, {
+                                "title": "端口速率",
+                                "dataSources": true
+                            }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "可用性",
+            "children": [{
+                    "title": "链路传输特性",
+                    "children": [{
+                            "title": "微波宽带用户接入链路",
+                            "children": [{
+                                "title": "误码率",
+                                "dataSources": true
+                            }, {
+                                "title": "传输速率",
+                                "dataSources": true
+                            }, {
+                                "title": "频带宽度",
+                                "dataSources": true
+                            }]
+                        },
+                        {
+                            "title": "微波中继用户接入链路",
+                            "children": [{
+                                "title": "误码率",
+                                "dataSources": true
+                            }, {
+                                "title": "传输速率",
+                                "dataSources": true
+                            }, {
+                                "title": "频带宽度",
+                                "dataSources": true
+                            }]
+                        },
+                        {
+                            "title": "激光中继用户接入链路",
+                            "children": [{
+                                "title": "误码率",
+                                "dataSources": true
+                            }, {
+                                "title": "传输速率",
+                                "dataSources": true
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "title": "组网传输特性",
+                    "children": [{
+                            "title": "微波宽带-微波宽带",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "微波宽带-关口站",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "微波中继-微波宽带",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "激光中继-微波宽带",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "微波中继-关口站",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "激光中继-关口站",
+                            "children": [{
+                                    "title": "丢包率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "时延抖动",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "IP头压缩效率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP并发",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "TCP吞吐量",
+                                    "dataSources": true
+                                }
+                            ]
+                        }
+                    ]
+                }, {
+                    "title": "用户容量",
+                    "children": [{
+                            "title": "微波宽带用户容量",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "微波中继用户容量",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "激光中继用户容量",
+                            "dataSources": true
+                        }
+                    ]
+                }, {
+                    "title": "终端业务可用性",
+                    "children": [{
+                            "title": "激光中继业务可用性",
+                            "children": [{
+                                    "title": "接入时间",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "接入成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换时间",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "微波中继业务可用性",
+                            "children": [{
+                                    "title": "接入时间",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "接入成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换时间",
+                                    "dataSources": true
+                                }
+                            ]
+                        },
+                        {
+                            "title": "微波宽带业务可用性",
+                            "children": [{
+                                    "title": "接入时间",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "接入成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨星切换时间",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨波束切换成功率",
+                                    "dataSources": true
+                                },
+                                {
+                                    "title": "跨波束切换时间",
+                                    "dataSources": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "适应性",
+            "children": [{
+                    "title": "语音业务适应性",
+                    "children": [{
+                            "title": "呼叫建立时间",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "呼通率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "掉线率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "话音质量",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "视频业务适应性",
+                    "children": [{
+                            "title": "视频通话建立时间",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "视频码率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "视频帧率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "视频分辨率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "视频延迟",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "数据业务适应性",
+                    "children": [{
+                            "title": "数据业务响应时间",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "数据业务传输时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "数据业务吞吐量",
+                            "dataSources": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "敏捷性",
+            "children": [{
+                    "title": "载荷调度能力",
+                    "children": [{
+                            "title": "载荷调度时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "载荷调度成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "资源使用效率",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "网络配置能力",
+                    "children": [{
+                            "title": "路由参数配置时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "路由参数配置成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "用户信息管理时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "用户信息管理成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "交换策略配置时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "交换策略配置成功率",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "资源管控能力",
+                    "children": [{
+                            "title": "用户接入时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "用户接入成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "业务申请时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "业务申请成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "移动切换时延",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "移动切换成功率",
+                            "dataSources": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "对抗性",
+            "children": [{
+                    "title": "异常情况下对抗能力",
+                    "children": [{
+                            "title": "重连成功率",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "重连时间",
+                            "dataSources": true
+                        }
+                    ]
+                },
+                {
+                    "title": "压力情况下对抗能力",
+                    "children": [{
+                            "title": "路由重构时间",
+                            "dataSources": true
+                        },
+                        {
+                            "title": "业务恢复时间",
+                            "dataSources": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

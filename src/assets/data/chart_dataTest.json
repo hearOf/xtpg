@@ -1,0 +1,79 @@
+{
+    "chartData": [],
+    "chartDataT": [{
+            "value": 310,
+            "xAxisField": "周一",
+            "name": "直接访问"
+        },
+        {
+            "value": 335,
+            "xAxisField": "周一",
+            "name": "邮件营销"
+        },
+        {
+            "value": 246,
+            "xAxisField": "周一",
+            "name": "联盟广告"
+        },
+        {
+            "value": 452,
+            "xAxisField": "周一",
+            "name": "视频广告"
+        },
+        {
+            "value": 700,
+            "xAxisField": "周一",
+            "name": "搜索引擎"
+        },
+        {
+            "value": 561,
+            "xAxisField": "周二",
+            "name": "直接访问"
+        },
+        {
+            "value": 256,
+            "xAxisField": "周二",
+            "name": "邮件营销"
+        },
+        {
+            "value": 561,
+            "xAxisField": "周二",
+            "name": "联盟广告"
+        },
+        {
+            "value": 200,
+            "xAxisField": "周二",
+            "name": "视频广告"
+        },
+        {
+            "value": 1000,
+            "xAxisField": "周二",
+            "name": "搜索引擎"
+        },
+        {
+            "value": 215,
+            "xAxisField": "周三",
+            "name": "直接访问"
+        },
+        {
+            "value": 156,
+            "xAxisField": "周三",
+            "name": "邮件营销"
+        },
+        {
+            "value": 452,
+            "xAxisField": "周三",
+            "name": "联盟广告"
+        },
+        {
+            "value": 321,
+            "xAxisField": "周三",
+            "name": "视频广告"
+        },
+        {
+            "value": 1230,
+            "xAxisField": "周三",
+            "name": "搜索引擎"
+        }
+    ]
+}
